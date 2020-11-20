@@ -1,0 +1,84 @@
+body{
+    background-color: rgb(88, 196, 230);
+    font-family: sans-serif;
+}
+section{
+    background-color: rgba(238, 226, 195, 0.856);
+    width: 1000px;
+    height: auto;
+    border: black solid 1px;
+    
+}
+caption.enero{
+    font-style: oblique;
+    font-weight: bold;
+}
+table.tabla_enero{
+    
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+table.tabla_enero td{
+    text-align: center;
+    width: 47px;
+    border-top: 1px solid rgb(197, 197, 197) ;
+    
+}
+
+table.tabla_febrero{
+
+    text-align: right;
+    margin: auto;
+    border-collapse: collapse;
+    border-left: 1px solid rgb(197, 197, 197);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+
+caption.febrero{
+    font-weight: bold;
+    text-align: right;
+}
+table.tabla_febrero td{
+    font-size: 25px;
+    width: 40px;
+    border-top: none;
+    border-bottom: none;
+    border-right: 0.5px solid rgb(197, 197, 197); 
+}
+table.tabla_febrero th {
+    border-top: none;
+    border-bottom: none;
+    border-right: 1px solid rgb(197, 197, 197);
+}
+table.tabla_marzo{
+    text-align: left;
+    border: black 1px solid;
+    border-collapse: collapse;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    width: 410px;
+    height: 350px;
+}
+
+caption.marzo{
+    text-align: left;
+
+}
+table.tabla_marzo td{
+    font-size: 11px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    vertical-align: top;
+}
+table.tabla_marzo th {
+    border-right: 1px solid black ;
+    text-align: center;
+}
